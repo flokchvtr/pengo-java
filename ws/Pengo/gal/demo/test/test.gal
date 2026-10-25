@@ -1,0 +1,5 @@
+Chaser(Hunt){
+  * (Hunt):
+    | Closest(@, F) ? Move(F)  :(Hunt)
+    | !Closest(@, F) ? Turn(L) :(Hunt)
+}
